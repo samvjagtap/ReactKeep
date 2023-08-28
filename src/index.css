@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.kepp {
+  color: rgb(211, 184, 10);
+  font-weight: 800;
+}
+
+.slider-form {
+  box-shadow: 1rem 1rem rgba(0, 0, 0, 0.2);
+  background-color: rgba(255,255,255, .9);
+  border-radius: 3px;
+  color: gray;
+  margin: 70px auto;
+  width: 340px;
+}
+.slider-form > h2 {
+  background-color: #ddd;
+  color: #111;
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: -1px;
+  padding: .25rem;
+  text-align: center;
+}
+.slider-form > h3 {
+  color: #222;
+  font-size: 1.25em;
+  font-weight: 400;
+  padding: 0 1.125rem;
+  text-align: center;
+  margin: 0;
+}
+.slider-form > form {
+  padding: 1em;
+  height: 180px;
+}
+.slider-form > form > .form-group {
+  margin-bottom: .75rem;
+}
+.slider-form > form > button {
+  background-color: #003354;
+  color: white;
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-top: .5rem;
+  float: right;
+}
+
+.slider-form > form > button:hover {
+  background-color: rgb(211, 184, 10);
+}
+
+input {
+  border: none;
+  border-radius: 5px;
+  margin: 0;
+  padding: 8px 10px;
+  width: 100%;
+}
+
+textarea {
+  border: none;
+  border-radius: 5px;
+  margin: 0;
+  padding: 8px 10px;
+  width: 100%;
+}
+
+.note {
+  box-shadow: 1rem 1rem rgba(0, 0, 0, 0.2);
+  background-color: rgba(255,255,255, .9);
+  border-radius: 3px;
+  margin: auto;
+}
+
+.note > button {
+  background-color: #003354;
+  color: white;
+  font-size: 1.25rem;
+  font-weight: 700;
+  float: right;
+  font-size: 12px;
+  position: relative;
+  bottom: 5px;
+}  
+
+.note > button:hover {
+  background-color: rgb(211, 184, 10);
+  font-size: 14px;
+  transition: .4s;
+}
+
+.note_box {
+  width: 40%;
+}
+
+@media screen and (max-width: 575px) {
+  .note_box {
+    width: 90%;
+  }
+  .note {
+    width: 90%;
+  }
+}
